@@ -2,12 +2,16 @@
 var todayMoment = moment();
 $('#currentDay').text(todayMoment.format('dddd, MMM Do'));
 
-// 3 columns using bootstrap
 
-// moment time to left column
-
-
-// ability to add text to middle column
+// moment time to middle column
+// var hour = moment() {
+// }
 
 
-// add save button with local storage and save icon
+
+
+
+// add local storage
+localStorage.setItem('text', text);
+localStorage.getItem('text');
+console.log(text)

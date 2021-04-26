@@ -30,20 +30,29 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <div id="hour-9" class="row time-block past"></div>
-      <div id="hour-10" class="row time-block past"></div>
-      <div id="hour-11" class="row time-block past"></div>
-      <div id="hour-12" class="row time-block past"></div>
-      <div id="hour-13" class="row time-block past"></div>
-      <div id="hour-14" class="row time-block past"></div>
-      <div id="hour-15" class="row time-block past"></div>
-      <div id="hour-16" class="row time-block past"></div>
-      <div id="hour-17" class="row time-block past"></div>
-
-     
+      <div class="row time-block past">
+        <div class="col-1 hour">9AM</div>
+        <div class="col-10" id="hour-9">
+          <textarea class="col-12"></textarea>
+        </div>
+        <div class="col-1 saveBtn">
+          <button class="icon"><i style="font-size:15px" class="fas fa-save"></i></button>
+        </div>
+      </div>
+      <div class="row time-block past">
+        <div class="col-1 hour" id="hour-10">10AM</div>
+        <div class="col-10">
+          <textarea class="col-12"></textarea>
+        </div>
+        <div class="col-1 saveBtn">
+          <button class="icon"><i style="font-size:15px" class="fas fa-save"></i></button>
+        </div>
+      </div>
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="assets/js/script.js"></script>
   </body>
